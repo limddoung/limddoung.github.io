@@ -1,0 +1,48 @@
+body {
+    background-color: #60a9ff;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+.main {
+
+    width: 70%;
+    height: 100vh;
+    background-color: white;
+    border-radius: 10%;
+
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.basic {
+    margin-left: 20px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    text-decoration: none;
+    color: black;
+}
+
+.menu:hover {
+    color: rgb(53, 8, 98);
+    font-size: larger;
+
+}

@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(7, 89, 95);
+    background-color: #60a9ff;
     font-family: 'Kanit', sans-serif;
     display: flex;
     justify-content: center;
@@ -14,9 +14,9 @@ body {
     flex-direction: column;
     width: 70%;
     height: 100vh;
-    background-color: wheat;
+    background-color: white;
     border-radius: 10%;
-
+    min-width: 300px
 }
 
 img {
@@ -66,4 +66,14 @@ span {
     border-right: 1px solid black;
     width: 33%;
     height: 50%;
+}
+
+@media(max-width:480px) {
+    h1 {
+        font-size: smaller;
+    }
+}
+
+.menu {
+    text-decoration: none;
 }
