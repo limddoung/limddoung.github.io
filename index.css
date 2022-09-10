@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(7, 89, 95);
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    height: 100vh;
+    background-color: wheat;
+    border-radius: 10%;
+
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: 2px solid rgb(143, 5, 115);
+
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0px;
+}
+
+p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+BUTTON {
+    width: 105px;
+    height: 55px;
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 15%;
+    transition: 500ms;
+    font-weight: 800;
+
+}
+
+BUTTON:hover {
+    background-color: rgba(22, 2, 53, 0.39);
+    margin-top: 20px;
+}
+
+span {
+    font-weight: 900;
+}
+
+.no {
+    font-size: 4px
+}
+
+.a {
+    border-right: 1px solid black;
+    width: 33%;
+    height: 50%;
+}
