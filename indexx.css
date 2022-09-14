@@ -93,3 +93,14 @@ p {
     border: 1px solid black;
     flex-wrap: wrap-reverse;
 }
+
+.big {
+    text-align: center;
+    font-size: 100px;
+    padding-left: 220px;
+    padding-top: 100px;
+}
+
+.end {
+    padding-left: 220px;
+}

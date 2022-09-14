@@ -64,10 +64,10 @@ p {
     justify-content: flex-start;
 }
 
-.hobby {
+.intro {
     display: flex;
-
     flex-direction: column;
+
 }
 
 .left {
@@ -86,31 +86,10 @@ p {
     color: black;
 }
 
-.b {
-    margin-bottom: 50px;
-    margin-top: 80px;
-    margin-left: 25px;
-    font-weight: bold;
-    width: 100px;
-    text-align: center;
-}
-
-.b:nth-of-type(1) {
-    margin-top: 80px;
-}
-
-.c {
-    margin-bottom: 50px;
-    margin-top: 80px;
-    margin-left: 25px;
-    font-weight: 200;
-
-}
-
-.c:nth-of-type(3) {
-    padding-top: 50px;
-}
-
-.d {
-    text-decoration: underline;
+.lol {
+    flex-direction: row;
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    flex-wrap: wrap-reverse;
 }
