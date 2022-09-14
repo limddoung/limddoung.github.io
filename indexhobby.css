@@ -114,3 +114,7 @@ p {
 .d {
     text-decoration: underline;
 }
+
+i {
+    font-size: 50px;
+}
